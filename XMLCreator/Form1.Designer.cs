@@ -45,7 +45,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 12);
+            this.button1.Location = new System.Drawing.Point(29, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(176, 23);
             this.button1.TabIndex = 0;
@@ -56,7 +56,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(224, 22);
+            this.label1.Location = new System.Drawing.Point(241, 22);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(92, 13);
             this.label1.TabIndex = 1;
@@ -64,17 +64,18 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(12, 69);
+            this.button2.Location = new System.Drawing.Point(29, 69);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(176, 23);
             this.button2.TabIndex = 2;
             this.button2.Text = "Выбрать файл данных excel";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(224, 79);
+            this.label2.Location = new System.Drawing.Point(241, 79);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(92, 13);
             this.label2.TabIndex = 3;
@@ -82,17 +83,18 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(107, 125);
+            this.button3.Location = new System.Drawing.Point(124, 125);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(126, 23);
             this.button3.TabIndex = 4;
             this.button3.Text = "Собрать файл";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(12, 181);
+            this.listBox1.Location = new System.Drawing.Point(29, 181);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(316, 173);
             this.listBox1.TabIndex = 5;
@@ -100,7 +102,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(13, 162);
+            this.label3.Location = new System.Drawing.Point(30, 162);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(62, 13);
             this.label3.TabIndex = 6;
@@ -108,7 +110,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(107, 371);
+            this.button4.Location = new System.Drawing.Point(124, 371);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(126, 23);
             this.button4.TabIndex = 7;
@@ -119,7 +121,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(338, 409);
+            this.ClientSize = new System.Drawing.Size(372, 409);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.listBox1);
