@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
+using Excel = Microsoft.Office.Interop.Excel;
 
 namespace XMLCreator
 {
@@ -17,9 +18,12 @@ namespace XMLCreator
         private string ExcelFile { get; set; }
         private XmlDocument NewXML { get; set; }
 
+        private Excel.Application ex { get; set; }
+
         public Form1()
         {
             InitializeComponent();
+            Excel.Application ex = new Microsoft.Office.Interop.Excel.Application();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -68,7 +72,8 @@ namespace XMLCreator
 
             try
             {
-
+                listBox1.Items.Add("Открытие Excel файла");
+                ex.Workbooks.Open(@ExcelFile);
             }
             catch (Exception exception)
             {
