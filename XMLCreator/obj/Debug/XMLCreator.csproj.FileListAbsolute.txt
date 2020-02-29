@@ -10,3 +10,8 @@ G:\Мой диск\6. Аукционы\Госконтракты\2020\РЖД ЗА
 C:\Games\XMLCreator\XMLCreator\bin\Debug\XMLCreator.exe.config
 C:\Games\XMLCreator\XMLCreator\obj\Debug\XMLCreator.exe
 C:\Games\XMLCreator\XMLCreator\obj\Debug\XMLCreator.pdb
+C:\Games\XMLCreator\XMLCreator\bin\Debug\XMLCreator.exe
+C:\Games\XMLCreator\XMLCreator\bin\Debug\XMLCreator.pdb
+C:\Games\XMLCreator\XMLCreator\obj\Debug\XMLCreator.Form1.resources
+C:\Games\XMLCreator\XMLCreator\obj\Debug\XMLCreator.Properties.Resources.resources
+C:\Games\XMLCreator\XMLCreator\obj\Debug\XMLCreator.csproj.GenerateResource.Cache
