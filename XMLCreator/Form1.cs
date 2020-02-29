@@ -170,6 +170,7 @@ namespace XMLCreator
                             XmlElement newDopSvedTov = NewXML.CreateElement("ДопСведТов");
                             XmlAttribute attr9 = NewXML.CreateAttribute("НаимЕдИзм");
                             attr9.Value = sheet.Cells[i, 11].Value2.ToString();
+                            newDopSvedTov.Attributes.Append(attr9);
 
                             newSvedTov.AppendChild(newAkciz);
                             newSvedTov.AppendChild(newSumNal);

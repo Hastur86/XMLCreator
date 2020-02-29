@@ -15,3 +15,4 @@ C:\Games\XMLCreator\XMLCreator\bin\Debug\XMLCreator.pdb
 C:\Games\XMLCreator\XMLCreator\obj\Debug\XMLCreator.Form1.resources
 C:\Games\XMLCreator\XMLCreator\obj\Debug\XMLCreator.Properties.Resources.resources
 C:\Games\XMLCreator\XMLCreator\obj\Debug\XMLCreator.csproj.GenerateResource.Cache
+C:\Games\XMLCreator\XMLCreator\obj\Debug\XMLCreator.csprojResolveAssemblyReference.cache
